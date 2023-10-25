@@ -1,0 +1,62 @@
+.khung{
+    position: relative;
+    width: 300px;
+    height: 380px;
+    border-radius: 29px 29px 29px 29px;
+    -moz-border-radius: 29px 29px 29px 29px;
+    -webkit-border-radius: 29px 29px 29px 29px;
+    border: 1px solid #ffffff;
+    -webkit-box-shadow: 1px 1px 45px -6px rgba(0,0,0,0.55);
+    -moz-box-shadow: 1px 1px 45px -6px rgba(0,0,0,0.55);
+    box-shadow: 1px 1px 45px -6px rgba(0,0,0,0.55);
+    margin-top: 250px;
+    backdrop-filter: blur(20px);
+}
+.nhap{
+    position: relative;
+    border-radius: inherit;
+    text-align: start;
+    color: darkblue;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+body{
+    background: url("../pngGif/8-bit-sky-clouds-pixels-landscape-artwork-1360159-wallhere.com (1).jpg");
+    background-size: cover;
+    font-family: sans-serif;
+    background-position-y: -80px;
+}
+input {
+    border-radius: 10px;
+    height: 30px;
+    width: 200px;
+    margin-bottom: 5px;
+    border: 1px solid lightgrey;
+
+}
+h2{
+    color: #868787;
+    margin-bottom: -5px;
+}
+h4{
+    margin-bottom: 1px;
+    text-align: start;
+}
+button{
+    width: 90px;
+    height: 40px;
+    margin-bottom: 2px;
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+    background-color: #45a049 ;
+    color: white;
+}
+button:hover{
+    font-size: 15px;
+    color: bisque;
+}
+.phimDN{
+    margin-bottom: 85px;
+}
+
